@@ -10,8 +10,8 @@ const ThemeSwitcher = () => {
       className="flex items-center space-x-4 cursor-pointer select-none transition"
       onClick={themeContext.switchTheme}
     >
-      <span>{themeContext.theme == "light" ? "DARK" : "LIGHT"}</span>
-      {themeContext.theme == "light" ? (
+      <span>{themeContext.theme === "light" ? "DARK" : "LIGHT"}</span>
+      {themeContext.theme === "light" ? (
         <MoonIcon className="w-6 h-6" />
       ) : (
         <SunIcon className="w-6 h-6" />

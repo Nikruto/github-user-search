@@ -9,7 +9,11 @@ function UserCard({ user }) {
       <div className="flex">
         <div className="flex flex-1">
           <div>
-            <img className="w-20 h-20 rounded-full" src={user.avatar_url} />
+            <img
+              alt="User profile"
+              className="w-20 h-20 rounded-full"
+              src={user.avatar_url}
+            />
           </div>
           <div className="ml-6 flex flex-col sm:flex-row sm:justify-between flex-1">
             <div>
