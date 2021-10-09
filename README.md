@@ -5,7 +5,7 @@
 Firstly clone this project with git then install packages with npm
 
 ```bash
-git clone https://github.com/Nikruto/hackernews-clone.git
+git clone https://github.com/Nikruto/github-user-search.git
 npm install
 ```
 
